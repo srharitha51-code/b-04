@@ -1,0 +1,11 @@
+name:
+on: workflow_dispatch
+jobs:
+  job-1:
+  runs-on: ubuntu-latest
+  steps:
+  -name: test-step
+  run: echo "job1 is completed"
+    
+  
+ 
